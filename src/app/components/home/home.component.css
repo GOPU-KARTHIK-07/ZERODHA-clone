@@ -1,0 +1,164 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general layout */
+body {
+    font-family: 'Inter', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Main Content */
+main {
+    padding: 20px 0;
+}
+
+/* Homepage Section */
+.landing {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.landing-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.landing-heading {
+    font-size: 2.5rem;
+    margin: 20px 0;
+}
+
+.landing-subheading {
+    font-size: 1.25rem;
+    color: #555;
+}
+
+.button {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.button:hover {
+    background: #0056b3;
+}
+
+/* Ecosystem Section */
+.ecosystem {
+    background: #fff;
+    padding: 50px 0;
+}
+
+.ecosystem-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.why-us-section {
+    margin-bottom: 20px;
+}
+
+.why-us-section h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.why-us-section p {
+    color: #6c757d;
+}
+
+.pricing {
+    background: #f8f9fa;
+    padding: 50px 0;
+}
+
+.pricing-box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pricing-box img {
+    max-width: 80px;
+    height: auto;
+}
+
+.pricing-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.pricing-link a:hover {
+    text-decoration: underline;
+}
+
+/* Education Section */
+.img-margin {
+    margin-bottom: 20px;
+}
+
+.space-top {
+    margin-top: 20px;
+}
+
+/* Kite Sections */
+.kite-sections {
+    background: #007bff;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.kite-sections .mini-container {
+    text-align: center;
+}
+
+.kite-sections .button {
+    background: #fff;
+    color: #007bff;
+}
+
+.kite-sections .button:hover {
+    background: #e9ecef;
+    color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .columns {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .landing-heading {
+        font-size: 2rem;
+    }
+
+    .landing-subheading {
+        font-size: 1rem;
+    }
+}

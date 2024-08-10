@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('assests/font/fontello.eot@82279574');
+    src: url('assests/font/fontello.svg@82279574');
+
+}
+body {
+    font-family: 'MyCustomFont', sans-serif;
+  }

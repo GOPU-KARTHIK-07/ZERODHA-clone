@@ -1,0 +1,68 @@
+.about-container {
+    font-family:'MyCustomFont', sans-serif;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+  }
+p{
+    font-family:'MyCustomFont', sans-serif;
+    -webkit-font-smoothing: antialiased;
+
+  }
+  
+  .main-content {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .main-content h1 {
+    font-family:'MyCustomFont', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile-image img {
+    height: 295px;
+    margin-bottom: 10px;
+    border-radius: 100%;
+
+  }
+  
+  .profile-details {
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .profile-details p {
+    margin: 0.5rem 0;
+  }
+  
+  .profile-details a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  .profile-details a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (min-width: 768px) {
+    .profile {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  
+    .profile-image {
+      margin-right: 2rem;
+      
+    }
+  }
+  

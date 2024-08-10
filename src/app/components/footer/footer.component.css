@@ -1,0 +1,143 @@
+
+footer {
+    background-color: #fbfbfb;
+    padding: 30px 0 5px 0;
+    border-top: 1px solid #eee
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+
+footer .contactnumber {
+    font-size: 1.25rem;
+    color: #424242;
+    margin-bottom: 10px
+}
+
+footer .social {
+    padding: 0;
+    margin-top: 15px
+}
+
+footer .social:last-child {
+    margin-top: 8px
+}
+
+footer .social li {
+    display: inline-block;
+    margin-right: 13px
+}
+
+footer .social a {
+    font-size: 1.25rem;
+    color: #9b9b9b;
+    line-height: 1
+}
+
+footer .social a:hover {
+    color: #387ed1
+}
+
+footer .social a img {
+    height: 18px;
+    width: 18px;
+    position: relative;
+    top: 3px
+}
+
+footer .social a img.youtube-logo {
+    width: 26px;
+    height: 26px;
+    top: 7px
+}
+
+footer .footer-logo {
+    padding: 10px 0
+}
+
+footer .footer-logo img {
+    max-height: 20px;
+    width: auto
+}
+
+footer .main-footer li {
+    line-height: 2
+}
+
+footer .main-footer li a {
+    color: #666
+}
+
+footer .main-footer li a:hover {
+    color: #387ed1
+}
+
+footer .main-footer .nav-head {
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-bottom: 10px
+}
+
+footer .smallprint {
+    color: #9b9b9b;
+    margin-top: 40px
+}
+
+footer .smallprint p {
+    font-size: .65rem;
+    margin-top: 0;
+    margin-bottom: 10px;
+    width: 100%
+}
+
+footer .smallprint p:last-child {
+    margin-bottom: 0
+}
+
+footer .footer-graveyard-links ul li {
+    display: inline;
+    font-size: .8rem;
+    margin-right: 20px
+}
+
+footer .footer-graveyard-links ul li a {
+    color: #9b9b9b;
+    line-height: 4;
+    font-size: .75rem
+}
+
+footer .footer-graveyard-links ul li a:hover {
+    color: #387ed1
+}
+
+footer .copyright {
+    margin: 0;
+    font-size: .8rem
+}
+
+@media only screen and (max-width: 1100px) {
+    footer .container {
+        padding: 0 20px
+    }
+}
+hr{
+    border: none;
+    border-top: 1px solid #eee;
+}
+@media only screen and (max-width: 800px) {
+
+    .main-footer .column,
+    .main-footer .columns {
+        margin-bottom: 40px
+    }
+
+    .main-footer .column:last-child,
+    .main-footer .columns:last-child {
+        margin-bottom: 0
+    }
+}
+
+
